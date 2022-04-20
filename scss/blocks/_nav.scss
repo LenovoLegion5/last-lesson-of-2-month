@@ -1,6 +1,6 @@
 @import "D:/najot talim/2-month/last-lesson-of-2-month/scss/variables";
 .social{
-    display: flex;
+    display:none;
     padding: 25px 0px 10px 0px; 
 }
 .logo{
@@ -8,6 +8,7 @@
     margin-right: auto;
 }
 .fa-brands{
+    font-size: 45px;
     margin-left: 45px;
     color: $main-color;
     &:hover{
@@ -57,6 +58,21 @@
 
 
 
-@media screen and (min-width:320px) and (max-width:400px) {
-    .container{max-width: 1000px;}
+@media screen and (max-width:375px){
+    .container{max-width: 350px;}
+    .social{padding: 15px 0px 5px 0px;}
+    .logo{width: 150px; height: 40px;}
+    .fa-brands{font-size: 25px;margin-left: 10px;}
+
+    .nav{
+        padding: 17px 0px 2.5px 0px;
+        &__link{
+            padding: 18px 5px;
+            font-size: 5px;
+        }
+        &__input{
+            padding: 5px 0px 5px 0px;
+        }
+    }
+    .fa-search{top: 8px;font-size: 14px;}
 }
