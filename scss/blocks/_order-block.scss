@@ -1,0 +1,39 @@
+@import '../mixin';
+
+.order{
+    margin-top: 100px;
+    padding: 35px 0px;
+    background-color: $second-section-hover-color;
+    height: 673px;
+
+    &__desc{margin-left: auto;width: 550px;}
+
+    &__title{
+        font-size: 35px;
+        font-family: "Raleway";
+        text-transform: uppercase;
+    }
+    &__text{
+        font-size: 25px;
+        font-family: 'Raleway';
+        margin-top: 15px;
+    }
+    
+    
+    &__content{display: flex;}
+    
+    
+    &__desc{display: flex;flex-direction: column;}
+
+
+    &__buttons{
+        margin-top: 110px;
+    }
+
+    &__button{
+        @include button;
+
+        &:hover{@include button-hover;transition: 0.5s;}
+    }
+}
+.holder__img{border-radius: 20px;}

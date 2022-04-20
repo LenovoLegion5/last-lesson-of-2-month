@@ -1,0 +1,62 @@
+@import "D:/najot talim/2-month/last-lesson-of-2-month/scss/variables";
+.social{
+    display: flex;
+    padding: 25px 0px 10px 0px; 
+}
+.logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+.fa-brands{
+    margin-left: 45px;
+    color: $main-color;
+    &:hover{
+        color: $second-section-hover-color;
+    }
+}
+.nav{
+    display: flex;
+    align-items: baseline;
+    padding: 28px 0px 1px 0px;
+    background-color: $main-color;
+
+    &_flex-wrapper{display: flex;}
+
+    &__list{
+        display: flex;
+        list-style-type: none;
+        margin-right: auto;
+    }
+
+    &__link{
+        font-family: "Raleway";
+        text-decoration: none;
+        color: white;
+        padding: 27px 40px;
+        &:hover{
+            background-color: $second-section-hover-color;
+        }
+    }
+
+    &__input{
+        padding: 10px 25px 12px 10px;
+        border-radius: 10px;
+    }
+    &__label{
+        position: relative;
+        bottom: 12px;
+    }
+}
+.fa-search{
+    position: absolute;
+    font-size: 22px;
+    top:10px;
+    right: 10px;
+    color: $main-color;
+}
+
+
+
+@media screen and (max-width:320px) {
+    .container{max-width: 1000px;}
+}

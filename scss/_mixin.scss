@@ -1,0 +1,13 @@
+@mixin button {
+    font-family: 'Raleway';
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    padding: 27px 86px;
+    background-color: $main-color;
+    border-radius: 20px;
+}
+@mixin button-hover {
+    background-color: white;
+    color: $second-section-hover-color;
+}

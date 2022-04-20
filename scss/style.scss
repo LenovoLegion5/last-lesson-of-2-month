@@ -1,0 +1,41 @@
+@import "./normalize";
+@import "./blocks/allblocks";
+@import "./variables";
+@import "./fonts";
+@import "./mixin";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1120px;
+    margin:0px auto;
+}
+.str{cursor: pointer;}
+.main-left{
+    position: absolute;
+    top: 550px;
+    left: 20px;
+}
+.main-right{
+    position: absolute;
+    top: 550px;
+    right: 20px;
+}
+.clients-left{
+    position: absolute;
+    top: 250px;
+    left: 20px;
+}
+.clients-right{
+    position: absolute;
+    top: 250px;
+    right: 20px;
+}
+
+
+
+
+

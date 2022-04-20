@@ -1,0 +1,32 @@
+.clients{
+    position: relative;
+    background-color: $main-color;
+    padding: 50px 0px 150px 0px;
+
+    & >.container> h2{color: white;font-size: 65px;font-weight: 800;font-family: 'Raleway';text-align: center;margin-bottom: 47px;}
+
+    &__card-wrapper{display: flex;justify-content: space-between;}   
+
+    &__devs{
+        width: 360px;
+        background-color: white;
+        padding: 33px 51px 33px 33px;
+        border-radius: 25px;
+    }
+
+}
+.devs__text{font-size: 18px;font-family: "Raleway";width: 252px;height: 131px;}
+.user{
+    margin-right: auto;
+    color: $main-color;
+    border-radius:50%;
+    background-color: #C4C4C4;
+    padding: 18px 20px;
+}
+.text-block{
+    font-family: "Raleway";
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+}
+.small{font-size: 15px;}
